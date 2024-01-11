@@ -1,0 +1,5 @@
+fastapi==0.109.0  # https://github.com/tiangolo/fastapi
+uvicorn[standard]==0.25.0  # https://github.com/encode/uvicorn
+sqlalchemy==2.0.25 # https://github.com/sqlalchemy/sqlalchemy
+requests==2.31.0  # https://github.com/psf/requests
+beautifulsoup4==4.12.2  # https://www.crummy.com/software/BeautifulSoup/
