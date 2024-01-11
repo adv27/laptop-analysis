@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>E-commerce Data Analysis</title>
+</head>
+<body>
+<div>
+    <h1>Most expensive laptop</h1>
+    <h2>{{ most_expensive_laptop.title }} ${{ most_expensive_laptop.price }}</h2>
+    <h3>{{ most_expensive_laptop.description }}</h3>
+    <h3>{{ most_expensive_laptop.review_count }} reviews</h3>
+</div>
+<hr>
+<div>
+    <h1>Laptop with the most reviews</h1>
+    <h2>{{ most_reviews_laptop.title }} ${{ most_reviews_laptop.price }}</h2>
+    <h3>{{ most_reviews_laptop.description }}</h3>
+    <h3>{{ most_reviews_laptop.review_count }} reviews</h3>
+</div>
+<hr>
+<div>
+    <h1>Average storage capacity of all laptops: {{ "%.2f"|format(average_storage_capacity) }}GB</h1>
+</div>
+</body>
+</html>
